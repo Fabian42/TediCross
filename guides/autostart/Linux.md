@@ -34,7 +34,7 @@ Adjust the file to suit your needs. I have TediCross running as a dedicated user
 
 Also point `WorkingDirectory` to wherever your TediCross files are
 
-You can, if you want to, supply the bot tokens through the service file. Put them at their respective lines in the file. This requires that `token` in TediCross' `settings.json` is set to `"env"`. If you prefer to give the tokens through `settings.json`, just remove the two lines starting with `Environment`
+You can, if you want to, supply the bot tokens through the service file. Put them at their respective lines in the file. This requires that `token` in TediCross' `settings.yaml` is set to `"env"`. If you prefer to give the tokens through `settings.yaml`, just remove the two lines starting with `Environment`
 
 When you are happy with the file, run the command `systemctl enable tedicross`. This activates the service. You can then control the service and check its status with the commands `systemctl start|stop|restart|status tedicross` (pick one of the middle words).
 
